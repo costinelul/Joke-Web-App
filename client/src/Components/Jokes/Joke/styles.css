@@ -1,0 +1,38 @@
+.joke_container {
+    background-color: rgb(244, 244, 245);
+    width: 60%;
+    height: 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px 1px;
+    margin-top: 6px;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+}
+.details {
+    display: flex;
+    position: relative;
+    gap: 15px;
+    font-size: 11px;
+    font-weight: bold;
+    top: 7px;
+    color: grey;
+}
+
+.punchline {
+    position: absolute;
+    right: 20px;
+}
+
+.edit_button {
+    margin-left: 20px;
+}
+
+.reveal {
+    transform: rotateX(180deg);
+    transition: all 2s ease-in-out;
+}

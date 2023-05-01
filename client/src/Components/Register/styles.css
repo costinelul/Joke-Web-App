@@ -1,0 +1,24 @@
+.register_container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.field {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.gotohome {
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

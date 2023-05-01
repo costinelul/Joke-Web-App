@@ -1,0 +1,29 @@
+.post_joke {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.input_container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#joke, #punchline {
+    width: 250px;
+}
+
+.submit {
+    position: absolute;
+    bottom: 20px;
+}
+.status {
+    position: absolute;
+    bottom: 47px;
+}

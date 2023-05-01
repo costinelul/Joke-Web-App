@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    gap: 30px;
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 50%;
+    margin-top: 5%;
+    transform: translateX(-50%);
+    font-size: 90%;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 10px 1px;
+}
+
+.nav_buttons {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    width: 160px;
+}
+.home {
+    margin-left: 60px;
+    user-select: none;
+    text-shadow: 1px 1px 1px;
+}
+a:visited {
+    color: inherit;
+}
+a {
+    text-decoration: none;
+}
+
+.logout {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+}
